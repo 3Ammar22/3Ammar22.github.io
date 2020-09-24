@@ -1,0 +1,38 @@
+body{background-color: white }
+h1{
+    padding:5mm;
+    text-align: center;
+    color: black ;
+    border-left: 6px solid red;
+    background-color: lightgrey;   
+    margin-top:40px;
+}
+
+h4{
+    border-bottom: 2px solid red;
+    width: 7%;
+}
+img{border:2px solid black;}
+#fremgangsmåden { width: 10%;}
+#følge {border-bottom: 2px solid red ;
+width: 48%;}
+#lave{width:45%;}
+.btto{background-color:black; border-block-color: white;
+    color: white; 
+}
+.nb{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+.tpm{ 
+        display: inline-block;
+            float: left;
+
+}
+.tpm {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+  
