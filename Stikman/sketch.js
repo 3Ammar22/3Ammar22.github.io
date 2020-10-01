@@ -15,18 +15,20 @@ function draw() {
     let VenstreHånd = 200
     let Fødder = 350
     let ØjneFarve = (75, 86, 242)
+    let X = (mouseX) 
+    let Y = (mouseY)
+  
   fill(hovedfarve)
   circle(200, 100, 80);//hoved
   line(200, 140, 200, 250);//krop
   line(200, 170, 80, VenstreHånd);//VenstreArm
   line(200, 170, 320, HøjerHånd);//HøjerArm
   line(200, 250, 240, Fødder);//HøjerBen
-  line(200, 250, 160, Fødder);//VenstreBen
+  line(200, 250,X,Y);//VenstreBen
   fill (kropsfarve)
   ellipse(200, 215, 30, 100);
   
-  
-  
+ 
   
   
   strokeWeight(6)
@@ -38,6 +40,8 @@ function draw() {
   
   strokeWeight(1)
   line(200, 110, 210, 110);
+  
+  
   
   
 
