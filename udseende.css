@@ -22,17 +22,27 @@ width: 48%;}
 }
 .nb{
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+    margin: 10px;
+    padding: 10px;
+  }
+
   }
 .tpm{ 
-        display: inline-block;
-            float: left;
-
+    display: inline-block;
+    padding: 8px;
+    
 }
 .tpm {
-    display: block;
-    padding: 8px;
-    background-color:lightgrey ;
+    display: inline;
+  }
+  .tpm {
+    float: left;
   }
   
+  .tpm {
+    display: block;
+    padding: 8px;
+    background-color: red;
+    color:white;
+  }
+ 
