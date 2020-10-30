@@ -4,6 +4,6 @@
 - [tændstikmand](Stikman)
 - [bouncebold](test-circle) 
 - [løkker](Loops)
-- [ForLøkkeOgGangeTabbelOpTil10](loops 2)
+- [ForLøkkeOgGangeTabbelOpTil10](loops2)
+- [BoldOgÆndringAfFarve](Demo-ændring-af-farver)
 
-- Malthe, Det er ikke en virus, bare rolig
