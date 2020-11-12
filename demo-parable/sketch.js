@@ -24,7 +24,7 @@ function draw() {
   line(p0x,p0y,p2x,p2y);
   
   
-  let n = map(mouseY,0,height,2,30,true)
+  let n = map(mouseX,0,height,2,30,true)
   n = round(n)
   
   for(let i = 0;i <= n;i++){
