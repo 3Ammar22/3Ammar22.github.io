@@ -22,7 +22,7 @@ line(p0x,p0y,p1x,p1y);
 line(p0x,p0y,p2x,p2y);
 
 
-let n = map(mouseY,0,height,2,10,true)
+let n = map(mouseY,0,height,2,20,true)
 n = round(n)
 
 for(let i = 0;i <= n;i++){
