@@ -3,12 +3,11 @@ function setup() {
   }
 
 function draw() {
-
-
+  
   
   background(220);
   let p0x = 220
-  let p0y = mouseX
+  let p0y = mouseY
   let p1x = 120
   let p1y = 120
   let p2x = 320
@@ -39,6 +38,7 @@ function draw() {
     
     circle(x1,y1,10)
     circle(x2,y2,10)
+    
     
   }
   
