@@ -8,7 +8,7 @@ function draw() {
   
   background(220);
   let p0x = 220
-  let p0y = mouseY
+  let p0y = mouseX
   let p1x = 120
   let p1y = 120
   let p2x = 320
