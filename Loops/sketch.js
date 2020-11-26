@@ -1,7 +1,7 @@
 function setup() {
   createCanvas(400, 400);
 //FOR OG WHilE LØKKE
-  let x = 10
+  // let x = 10
 
 // While løkke
   // while (x > 0){ 
@@ -10,26 +10,23 @@ function setup() {
   // }
 
   // For løkke 
-  for (let x = 20; x > 0 ;x--) {
+  for (let x = 10; x > 0 ;x--) {
     console.log(x);
   
   }
 
 
 
-//   let n = 20 
-//   let x = 1
-//   let y = 1
+  let n = 20 
+  let x = 1
+  let y = 1
 
-// do{
-//   x++
-//   y = y + x
-//  } 
-//  while (x<n)
+do{
+  x++
+  y = y + x
+ } 
+ while (x<n)
 
-//   console.log(y)
+  console.log(y)
   
-// }
-
-  
-
+ }
