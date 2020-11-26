@@ -2,10 +2,10 @@
 // let x = 0;
 // let hastighed = 3
 let radius = 50
-let xValues = [100,150,200];
-let yValues = [100,150,100];
-let xSpeed = [-1,9,-13];
-let ySpeed = [3,7,-4];
+let xValues = [100,150,200,190,209];
+let yValues = [100,150,100,200,209];
+let xSpeed = [-9,9,-13,3,10];
+let ySpeed = [9,7,-4,20,8];
 
 function setup() {
   createCanvas(600, 400);
