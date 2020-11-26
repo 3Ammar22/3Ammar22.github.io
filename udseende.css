@@ -3,18 +3,19 @@ h1{
     padding:5mm;
     text-align: center;
     color: black ;
-    border-left: 6px solid red;
+    border-left: 6px solid #f44336;
     background-color: lightgrey;   
     margin-top:40px;
+  
 }
 
 h4{
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #f44336;
     width: 7%;
 }
 img{border:2px solid black;}
 #fremgangsmåden { width: 10%;}
-#følge {border-bottom: 2px solid red ;
+#følge {border-bottom: 2px solid #f44336 ;
 width: 48%;}
 #lave{width:45%;}
 .btto{background-color:black; border-block-color: white;
@@ -24,12 +25,36 @@ width: 48%;}
     list-style-type: none;
     margin: 10px;
     padding: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
   }
 
+
+
+  .tpm {
+    background-color: #f44336;
+    border: none;
+    color: #f44336;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+      
+    }
   }
+  .tpm   {
+    transition-duration: 0.4s;
+  }
+
 .tpm{ 
     display: inline-block;
     padding: 8px;
+    
+
+    }
     
 }
 .tpm {
@@ -39,10 +64,13 @@ width: 48%;}
     float: left;
   }
   
-  .tpm {
-    display: block;
-    padding: 8px;
-    background-color: red;
-    color:white;
+  .tpm:hover {background-color: #f44336 ;border-radius: 12px;} 
+
+  a:link, a:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
   }
+ 
  
