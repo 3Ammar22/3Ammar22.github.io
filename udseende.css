@@ -18,21 +18,18 @@ img{border:2px solid black;}
 #følge {border-bottom: 2px solid #f44336 ;
 width: 48%;}
 #lave{width:45%;}
-.btto{background-color:black; border-block-color: white;
-    color: white; 
-}
 .nb{
-    list-style-type: none;
-    margin: 10px;
-    padding: 10px;
-    position: sticky;
-    top: 0;
-    width: 100%;
-  }
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
 
 
 
-  .tpm {
+.tpm {
     background-color: #f44336;
     border: none;
     color: #f44336;
@@ -41,36 +38,67 @@ width: 48%;}
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-
-      
-    }
+    
+    
   }
+  
   .tpm   {
     transition-duration: 0.4s;
   }
-
-.tpm{ 
+  
+  .tpm{ 
     display: inline-block;
     padding: 8px;
     
-
-    }
     
-}
-.tpm {
+  }
+  
+  
+  .tpm {
     display: inline;
   }
   .tpm {
-    float: left;
+    float: left;}
+    .tpm:hover {background-color: #f44336 ;border-radius: 12px;} 
+
+    .tpm:active {
+      background-color: black;
+      box-shadow:  10px rgb(255, 182, 182);
+      transform: translateY(5px);
+    }
+  .btto{display: inline-block;
+    padding: 10px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:#f0776e ;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 3px #999;
+  }
+  .btto:hover {background-color: #f44336;border-radius: 12px;}
+  
+  .btto:active {
+    background-color: black;
+    box-shadow:  10px rgb(255, 182, 182);
+    transform: translateY(2px);
   }
   
-  .tpm:hover {background-color: #f44336 ;border-radius: 12px;} 
 
   a:link, a:visited {
-    color: white;
+    color:white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-  }
+
+  
+    
+
+
+
+      }
  
  

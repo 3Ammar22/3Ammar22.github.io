@@ -7,7 +7,7 @@ function draw() {
   
   background(220);
   let p0x = 220
-  let p0y = mouseX
+  let p0y = mouseY
   let p1x = 120
   let p1y = 120
   let p2x = 320
@@ -24,8 +24,10 @@ function draw() {
   line(p0x,p0y,p2x,p2y);
   
   
-  let n = map(mouseY,0,height,2,30,true)
+  let n = map(mouseX,0,width,1,15,true)
   n = round(n)
+ 
+  
   
   for(let i = 0;i <= n;i++){
     const x1 = map(i,0,n,p0x,p1x,true)
